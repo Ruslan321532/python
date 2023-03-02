@@ -32,10 +32,10 @@
 # print(type(height))
 
 
-# sum_ages = 18 + 20 + 33 + 19 + 20 + 21 + 21 + 16 + 18 + 18 + 17 + 22 \
-#            + 20 + 28 + 21 + 23 + 20 + 15 + 41 + 15
+sum_ages = 18 + 20 + 33 + 19 + 20 + 21 + 21 + 16 + 18 + 18 + 17 + 22 \
+           + 20 + 28 + 21 + 23 + 20 + 15 + 41 + 15
 #
-# amount_students = 20
+amount_students = 20
 #
 # average_age = sum_ages / amount_students
 # # average_age = int(average_age)
@@ -49,12 +49,14 @@
 name = "jack \"sparrow\""
 surname = input('surname: ')  # фамилия
 age = int(input('age: '))
-height = 1.74
+height = 1.87
 current_year = 2023
 birth_year = current_year - age
 height = height + 0.02
 
 print(f'Hello, {name} {surname} height: {height} \n на земле с {birth_year} года')
+print("kama lox")
+
 
 
 # print('Hello, ', name.title(), surname.upper(), country)
